@@ -1,0 +1,14 @@
+.spineer {
+    width :56px;
+    height:56px;
+    border-radius: 50%;
+    background: concic-gradient(#0000,#474bff);
+    -webkit-mask:radial-gradient(farthest-side,#0000 calc(100%-9px,#000 0));
+    animation :spinner-zp9dbg is infinite linear;
+}
+
+@keyframes spinner-zp9dbg {
+    to{
+        transform:rotate(1turn);
+    }
+}
